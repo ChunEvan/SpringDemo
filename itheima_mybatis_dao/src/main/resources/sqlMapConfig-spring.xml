@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+<!--        <typeAlias type="com.itheima.domain.User" alias="user"/>-->
+<!--        <typeAlias type="com.itheima.domain.Order" alias="order"/>-->
+<!--        <typeAlias type="com.itheima.domain.Account" alias="account"/>-->
+        <package name="com.itheima.domain"/>
+    </typeAliases>
+    
+<!--    <typeHandlers>-->
+<!--        <typeHandler handler="com.itheima.handler.DateTypeHandler"></typeHandler>-->
+<!--    </typeHandlers>-->
+
+<!--    <plugins>-->
+<!--        <plugin interceptor="com.github.pagehelper.PageHelper">-->
+<!--            <property name="dialect" value="mysql"/>-->
+<!--        </plugin>-->
+<!--    </plugins>-->
+
+<!--    <mappers>-->
+<!--&lt;!&ndash;        <package name="com.itheima.mapper"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapper resource="com.itheima.mapper/UserMapper.xml"></mapper>&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapper resource="com.itheima.mapper/OrderMapper.xml"></mapper>&ndash;&gt;-->
+<!--        <mapper resource="com.itheima.mapper/AccountMapper.xml"></mapper>-->
+<!--    </mappers>-->
+
+</configuration>
